@@ -24,6 +24,7 @@ def main():
     st.markdown("""
     Welcome to the Image and Audio Processor app! This app allows you to resize images, compress audio, and convert audio formats. Upload your files and get started!
     """)
+    st.markdown("By. Wildan Sophal Jamil")
 
     st.header("Image Resizer")
     image_file = st.file_uploader("Upload Image", type=['jpg', 'png', 'jpeg'])
